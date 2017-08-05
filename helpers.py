@@ -11,7 +11,7 @@ class ClipBoard:
 
     def __init__(self):
         self.state = None
-        self.notifier = Notify()
+        self.notifier = Notifier()
 
     def push_text(self, text):
         pyperclip.copy(text)
