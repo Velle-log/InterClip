@@ -1,5 +1,5 @@
 import dropbox
-from .helpers import ClipBoard
+from helpers import ClipBoard
 
 
 class InterClip:

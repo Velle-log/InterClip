@@ -1,5 +1,4 @@
-from .interclip import InterClip
-
+from interclip import InterClip
 
 token=''
 copier = InterClip(token)
