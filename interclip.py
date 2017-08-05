@@ -16,7 +16,7 @@ class InterClip:
 
     def temporary_copy(self):
 
-        content=self.clipped_text.pull_text()
+        content = self.clipped_text.pull_text()
         try:
             self.client.files_upload(content.encode(),
                                 '/testing/cpy.txt',
@@ -28,7 +28,7 @@ class InterClip:
 
     def longterm_copy(self):
 
-        content=self.clipped_text.pull_text()
+        content = self.clipped_text.pull_text()
         try:
             self.client.files_upload(content.encode(),
                                 '/testing/multiple/cpy.txt',
